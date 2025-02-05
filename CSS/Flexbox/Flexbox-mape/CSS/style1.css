@@ -1,0 +1,66 @@
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+p, a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #B6FF6C;
+}
+
+/* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ 
+header img, header h1 {
+    /*display: flex;
+    align-content: center;*/
+}
+
+nav, nav a, nav p{
+    display: flex;
+    background-color: #74A345;
+    color: white;
+}
+/* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ 
+
+main div {
+    border: 5px solid #B79C31;
+    border-radius: 20px 0 20px 0;
+    background-color: #FFFCB7;
+}
+
+div {
+    padding: 1.1rem;
+    margin-top: 1.7rem;
+}
+
+main div:nth-child(2) {
+    border: 5px solid #74A345;
+    background-color: #D3FFAB;
+}
+
+main div:nth-child(3) {
+    border: 5px solid #0C336D;
+    background-color: #B8E3FF;
+}
+
+main div:nth-child(4) {
+    border-radius: 0;
+    border-style: solid none;
+    border-color: #555555;
+    border-width: 8px;
+    background-color: #CCCCCC;
+}
+
+div:nth-child(4) p:first-child {
+    font-style: italic;
+}

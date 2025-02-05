@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <title>Prova de formularis</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Formularis HTML">
+    <meta name="author" content="Toni Riera Colomar">
+</head>
+
+<body>
+    <form method="POST" id="myForm" action="processar_info_form3_post.php" target="_blank" autocomplete="on">
+
+        <label for="browser">Triau el vostre cercador:</label>
+        <input list="browsers" name="browsers" id="browser">
+
+        <datalist id="browsers">
+            <option value="Edge">Edge</option>
+            <option value="Firefox">Firefox</option>
+            <option value="Chrome">Chrome</option>
+            <option value="Opera">Opera</option>
+            <option value="Safari">Safari</option>
+        </datalist>
+        <br>
+        <br>
+        <input type="color" name="color" id="color">
+        <br>
+        <input type="file" name="file" id="file">
+        <br>
+        <input type="week" name="week" id="week">
+        <br>
+        <input type="url" name="url" id="url">
+        <br>
+        <input type="hidden" name="hidden" id="hidden">
+        <br>
+        <input type="datetime" name="datetime" id="datetime">
+        <br>
+        <input type="number" name="number" id="number">
+        <br>
+        <input type="month" name="month" id="month">
+        <br>
+        <input type="range" name="range" id="range">
+        <br>
+        <textarea id="tu_historia" name="tu_historia" rows="10" cols="80" maxlength="500" required autofocus>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet veniam cumque beatae sed ratione quae nulla doloribus molestiae, accusamus ipsam. Facilis, commodi inventore quos nisi recusandae optio doloremque odio quasi.
+        </textarea>
+        <input type="submit" value="Envia">
+
+
+    </form>
+</body>
+
+</html>

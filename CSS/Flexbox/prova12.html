@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <title> Prova height i width </title>
+        <style>
+            body{
+                padding-top:200px;
+            }
+            
+            div{
+                border: 1px solid;
+                opacity:.9;
+                width: 200px;
+                height: 200px;
+                background: blue;
+                margin-top:-100px;
+                box-shadow: 0 0 5px black;
+                position:relative;
+            }
+
+            div:first-child{
+                background:yellow;
+                z-index:9999;
+            }
+
+            div:last-child{
+                background: red;
+            }
+        </style>
+    </head>
+<body>
+    <section>
+        <div> 1 </div>
+        <div> 2 </div>
+        <div> 3 </div>
+    </section>
+</body>
+</html>

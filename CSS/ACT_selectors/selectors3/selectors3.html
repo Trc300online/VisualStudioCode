@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Exercici selectors</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css.css">
+
+		<style type="text/css">
+			
+	*
+        { 
+				 font-family: "Open Sans", Arial, sans-serif;
+			    font-size: 1.2em;
+			    line-height: 1.6;
+			    color: #494949;
+		}
+    
+	header h1 {
+        font-family: "Roboto";
+        text-shadow: 2px 2px lightgreen;
+    }		 
+			
+			 
+		</style>
+</head>
+
+
+<body>
+
+<header>
+    <h1> Prova selectors</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit sed nulla nec dapibus. Vivamus sapien est, tristique ut viverra ac, dictum quis quam. <span class="mod"> vitae magna pretium, consectetur ipsum in, tempor neque. Mauris fringilla accumsan lorem a faucibus. Mauris vel iaculis arcu, at sollicitudin dolor.</span> Cras interdum quam non ipsum finibus consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin placerat, arcu vel dictum laoreet, arcu lorem consequat mi, ultricies viverra lorem libero eget nunc. Suspendisse commodo ipsum vitae nisi lacinia volutpat. Curabitur efficitur volutpat dolor, et sagittis libero sagittis vitae.</p>
+</header>
+
+<h1> Introducció</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus justo, porttitor at leo quis, aliquam ultricies justo. Donec non neque ultricies, rutrum mauris porttitor, consectetur lacus. Ut pharetra non elit sit amet tincidunt. Suspendisse luctus tortor elit, eu lacinia eros placerat vel. Integer sapien justo, <span class="mod">blandit ut ullamcorper vel, aliquam non nunc. Aliquam ac elit iaculis, malesuada nunc sed, rhoncus metus. Donec eget auctor erat, at porttitor lectus. Proin </span>sed nibh nulla. In luctus, enim vel commodo finibus, tellus nunc dapibus magna, id blandit erat felis vitae leo. Maecenas lobortis leo at tempor ullamcorper. Morbi vitae interdum ipsum. Pellentesque mollis, ipsum sit amet ultrices vulputate, dui nulla sagittis orci, eu porttitor orci sem a mi. Aliquam et placerat augue.</p>
+
+<h1> Descripció del problema </h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac ipsum gravida, bibendum augue et, pharetra ligula. Aliquam ut mauris lacus. Nulla pulvinar erat ut mi vehicula, id elementum ligula bibendum. Mauris consequat lorem sit amet neque tincidunt, in molestie dui tincidunt. Aliquam dictum tempor libero et posuere. Vestibulum pellentesque porta magna quis iaculis. Vivamus <span class="mod"> non augue eu ipsum vehicula rhoncus imperdiet eget augue. Phasellus vehicula mollis posuere. Fusce pharetra magna eget neque efficitur sagittis. Donec </span> fermentum rhoncus neque, a efficitur magna tincidunt quis. In eu lacus sit amet ex pellentesque hendrerit. Nulla finibus odio sed nulla tristique, eget faucibus nisi interdum. Etiam eleifend nibh nibh, non pharetra odio sodales a.</p>
+
+<p>Mauris tincidunt neque ligula, eget imperdiet justo egestas vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum vitae eros id accumsan. Quisque at sem tempus, pharetra libero eget, maximus erat. Nunc condimentum massa et porttitor feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan nibh eget ligula tempus congue. Nulla scelerisque tellus ut venenatis lacinia. Praesent non commodo nibh. Fusce sollicitudin pulvinar tortor, in dictum est egestas id. Nunc efficitur dui at lectus dapibus mollis. Etiam ut ex faucibus, pulvinar ligula sit amet, pretium ligula.</p>
+
+<h2> Problema 1</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut purus luctus, ullamcorper arcu sed, consectetur eros. Duis eleifend turpis turpis, quis sollicitudin quam rutrum non. Suspendisse potenti. Vestibulum id semper purus. Praesent libero mi, porta non mi nec, cursus varius justo. Nam venenatis viverra lobortis. Mauris convallis at arcu non mollis. Vivamus eros ex, congue sed libero quis, molestie eleifend neque. Nunc vulputate, metus id egestas cursus, nisl nunc convallis erat, at eleifend nisl arcu id diam. Cras malesuada non est vel euismod. Mauris cursus elementum molestie. Vivamus nibh mauris, auctor nec viverra id, lobortis eget arcu. Morbi sit amet sem id arcu accumsan posuere.</p>
+
+<p>Morbi sit amet ante vel turpis condimentum consequat. Cras magna massa, ullamcorper at lobortis ac, volutpat nec dolor. Aenean ultricies nisl ac erat efficitur imperdiet. Nam varius sodales purus, quis porta mauris. Cras quis massa ac nunc hendrerit ultrices sit amet vel risus. Etiam maximus nisl vitae libero cursus, ut elementum purus tristique. Sed eu urna ac dolor vehicula viverra nec ac elit. In consequat velit non arcu pretium, nec posuere arcu suscipit. Vivamus eu dolor accumsan, malesuada libero vitae, consectetur magna. Integer pulvinar orci ut tellus mattis auctor.</p>
+
+<p>In luctus vitae nisi sit amet viverra. Nunc dictum quam nec ex ultrices eleifend. Ut eleifend fermentum pulvinar. Donec varius nibh odio, in varius massa condimentum sed. Vestibulum semper dictum purus, sed rutrum nulla sodales non. Ut tortor ligula, blandit vel molestie ac, laoreet quis augue. Vestibulum euismod, metus quis ullamcorper ultricies, tortor ipsum volutpat erat, quis commodo lacus ipsum non ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam nulla sed metus congue, a sollicitudin metus laoreet. Pellentesque faucibus massa mi, a ullamcorper lacus posuere et. Vivamus bibendum auctor massa, in ornare ex convallis eu.</p>
+<div id="list1">
+<ul>
+    <li> Problema 1.1</li>
+    <li> Problema 1.2</li>
+    <li> Problema 1.3</li>
+</ul>
+<ul>
+    <li> Problema 1.a</li>
+    <li> Problema 1.b</li>
+    <li> Problema 1.c</li>
+</ul>
+<ol>
+    <li> Problema xxx</li>
+    <li> Problema yyy</li>
+    <li> Problema zzz</li>
+</ol>
+</div>
+<h2> Problema 2</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut purus luctus, ullamcorper arcu sed, consectetur eros. Duis eleifend turpis turpis, quis sollicitudin quam rutrum non. Suspendisse potenti. Vestibulum id semper purus. Praesent libero mi, porta non mi nec, cursus varius justo. Nam venenatis viverra lobortis. Mauris convallis at arcu non mollis. Vivamus eros ex, congue sed libero quis, molestie eleifend neque. Nunc vulputate, metus id egestas cursus, nisl nunc convallis erat, at eleifend nisl arcu id diam. Cras malesuada non est vel euismod. Mauris cursus elementum molestie. Vivamus nibh mauris, auctor nec viverra id, lobortis eget arcu. Morbi sit amet sem id arcu accumsan posuere.</p>
+
+<p>Morbi sit amet ante vel turpis condimentum consequat. Cras magna massa, ullamcorper at lobortis ac, volutpat nec dolor. Aenean ultricies nisl ac erat efficitur imperdiet. Nam varius sodales purus, quis porta mauris. Cras quis massa ac nunc hendrerit ultrices sit amet vel risus. Etiam maximus nisl vitae libero cursus, ut elementum purus tristique. Sed eu urna ac dolor vehicula viverra nec ac elit. In consequat velit non arcu pretium, nec posuere arcu suscipit. Vivamus eu dolor accumsan, malesuada libero vitae, consectetur magna. Integer pulvinar orci ut tellus mattis auctor.</p>
+
+<p>In luctus vitae nisi sit amet viverra. Nunc dictum quam nec ex ultrices eleifend. Ut eleifend fermentum pulvinar. Donec varius nibh odio, in varius massa condimentum sed. Vestibulum semper dictum purus, sed rutrum nulla sodales non. Ut tortor ligula, blandit vel molestie ac, laoreet quis augue. Vestibulum euismod, metus quis ullamcorper ultricies, tortor ipsum volutpat erat, quis commodo lacus ipsum non ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam nulla sed metus congue, a sollicitudin metus laoreet. Pellentesque faucibus massa mi, a ullamcorper lacus posuere et. Vivamus bibendum auctor massa, in ornare ex convallis eu.</p>
+<div id="list2">
+<ul>
+    <li> Problema 2.1</li>
+    <li> Problema 2.2</li>
+    <li> Problema 2.3</li>
+</ul>
+<ul>
+    <li> Problema 2.a</li>
+    <li> Problema 2.b</li>
+    <li> Problema 2.c</li>
+</ul>
+<ol>
+    <li> Problema xxx</li>
+    <li> Problema yyy</li>
+    <li> Problema zzz</li>
+</ol>
+</div>
+<h2> Problema 3</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut purus luctus, ullamcorper arcu sed, consectetur eros. Duis eleifend turpis turpis, quis sollicitudin quam rutrum non. Suspendisse potenti. Vestibulum id semper purus. Praesent libero mi, porta non mi nec, cursus varius justo. Nam venenatis viverra lobortis. Mauris convallis at arcu non mollis. Vivamus eros ex, congue sed libero quis, molestie eleifend neque. Nunc vulputate, metus id egestas cursus, nisl nunc convallis erat, at eleifend nisl arcu id diam. Cras malesuada non est vel euismod. Mauris cursus elementum molestie. Vivamus nibh mauris, auctor nec viverra id, lobortis eget arcu. Morbi sit amet sem id arcu accumsan posuere.</p>
+
+<p>Morbi sit amet ante vel turpis condimentum consequat. Cras magna massa, ullamcorper at lobortis ac, volutpat nec dolor. Aenean ultricies nisl ac erat efficitur imperdiet. Nam varius sodales purus, quis porta mauris. Cras quis massa ac nunc hendrerit ultrices sit amet vel risus. Etiam maximus nisl vitae libero cursus, ut elementum purus tristique. Sed eu urna ac dolor vehicula viverra nec ac elit. In consequat velit non arcu pretium, nec posuere arcu suscipit. Vivamus eu dolor accumsan, malesuada libero vitae, consectetur magna. Integer pulvinar orci ut tellus mattis auctor.</p>
+
+<p>In luctus vitae nisi sit amet viverra. Nunc dictum quam nec ex ultrices eleifend. Ut eleifend fermentum pulvinar. Donec varius nibh odio, in varius massa condimentum sed. Vestibulum semper dictum purus, sed rutrum nulla sodales non. Ut tortor ligula, blandit vel molestie ac, laoreet quis augue. Vestibulum euismod, metus quis ullamcorper ultricies, tortor ipsum volutpat erat, quis commodo lacus ipsum non ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam nulla sed metus congue, a sollicitudin metus laoreet. Pellentesque faucibus massa mi, a ullamcorper lacus posuere et. Vivamus bibendum auctor massa, in ornare ex convallis eu.</p>
+<div id="list3">
+<ul>
+    <li> Problema 3.1</li>
+    <li> Problema 3.2</li>
+    <li> Problema 3.3</li>
+</ul>
+<ul>
+    <li> Problema 3.a</li>
+    <li> Problema 3.b</li>
+    <li> Problema 3.c</li>
+</ul>
+<ol>
+    <li> Problema xxx</li>
+    <li> Problema yyy</li>
+    <li> Problema zzz</li>
+</ol>
+</div>
+<footer>
+    Pàgina feta per Cristina Sorell
+    <a href="mailto:csorell@politecnicllevant.cat">csorell@politecnicllevant.cat</a>
+    <a href="www.politecnicllevant.cat" > Web politecnic </a>
+    <p> Telèfon: 666666666 </p>
+</footer>
+</body>
+</html>

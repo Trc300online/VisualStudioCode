@@ -1,0 +1,28 @@
+header h1 {
+    color: purple;
+}
+header p {
+    color: deeppink;
+}
+#introducció h2 {
+    color: aqua;
+    text-shadow: 3px 3px deeppink;
+}
+#introducció p {
+    color: violet;
+}
+#desenvolupament h2 {
+    color: brown;
+}
+#desenvolupament p {
+    color: burlywood;
+}
+footer h2 {
+    color: gray;
+}
+footer p {
+    color: crimson;
+}
+#text p {
+    font-family: fantasy;
+}

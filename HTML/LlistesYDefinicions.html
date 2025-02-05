@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <title>Llistes i Definicions</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Llistes">
+    <meta name="author" content="Toni Riera Colomar">
+</head>
+<body>
+    <ul>
+        <li>Nivell 1 - item 1</li>
+        <li>Nivell 1 - item2
+        <ul>
+            <li>Nivell 2 - item 1</li>
+            <li>Nivell 2 - item 2</li>
+            <li>Nivell 2 - item 3
+            <ul>
+                <li>Nivell 3 - item 1</li>
+                <li>Nivell 3 - item 2</li>
+                <li>Nivell 3 - item 3</li>
+            </ul></li>
+            <li>Nivell 2 - item 4</li>
+            <li>Nivell 2 - item 5
+            <ul>
+                <li>Nivell 3 - item 4</li>
+                <li>Nivell 3 - item 5</li>
+                <li>Nivell 3 - item 6
+                <ul style="list-style-type: disc">
+                    <li>Nivell 4 - item 1</li>
+                    <li>Nivell 4 - item 2</li>
+                    <li>Nivell 4 - item 3</li>
+                </ul></li>
+                <li>Nivell 3 - item 7</li>
+            </ul></li>
+            <li>Nivell 2 - item 6</li>
+            <li>Nivell 2 - item 7</li>
+        </ul></li>
+        <li>Nivell 1 - item 3</li>
+    </ul>
+<!--.............................................-->
+<ol>
+    <li>Nivell 1 - item 1</li>
+    <li>Nivell 1 - item 2
+    <ol style="list-style-type: lower-alpha">
+        <li>Nivell 2 - item 1</li>
+        <li>Nivell 2 - item 2
+        <ol style="list-style-type: lower-roman">
+            <li>Nivell 3 - item 1</li>
+            <li>Nivell 3 - item 2
+            <ol>
+                <li>Nivell 4 - item 1</li>
+                <li>Nivell 4 - item 2</li>
+            </ol></li>
+            <li>Nivell 3 - item 3</li>
+        </ol></li>
+    </ol></li>
+    <li>Nivell 1 - item 3</li>
+    <li>Nivell 1 - item 4</li>
+    <li>Nivell 1 - item 5</li>
+</ol>
+<!--..................................................-->
+<ol>
+    <li>Nivell 1 - item 1
+    <ul style="list-style-type: circle">
+        <li>Nivell 2 - item 1</li>
+        <li>Nivell 2 - item 2</li>
+        <li>Nivell 2 - item 3</li>
+    </ul></li>
+    <li>Nivell 1 - item 2
+    <ul style="list-style-type: circle">
+        <li>Nivell 2 - item 4
+        <ol style="list-style-type: lower-roman">
+            <li>Nivell 3 - item 1</li>
+            <li>Nivell 3 - item 2</li>
+            <li>Nivell 3 - item 3</li>
+        </ol></li>
+        <li>Nivell 2 - item 5</li>
+        <li>Nivell 2 - item 6</li>
+    </ul></li>
+    <li>Nievll 1 - item 3</li>
+</ol>
+<!--..........................................................-->
+<dl>
+    <dt>&lt;!DOCTYPE html&gt;</dt>
+    <dd>Informa al navegador web que el document HTML està format amb l'especificació d'HTML5</dd>
+    <dt>&lt;html&gt;</dt>
+    <dd>És l'etiqueta arrel del document HTML. És la que conté les dues seccions principals: &lt;head&gt; i &lt;body&gt;.</dd>
+    <dt>&lt;head&gt;</dt>
+    <dd>Secció del document HTML on s'especifiquen les metadades del nostre document. El contingut d'aquesta secció no es mostra directament a la nostra web.</dd>
+    <dt>&lt;body&gt;</dt>
+    <dd>Secció del document HTML on posarem totes les etiquetes de contingut. El que es posa a dins aquesta secció és el que apareixerà a la nostra web.</dd>
+    <dt>Etiquetes de capçalera (heading) &lt;h1&gt; … &lt;h6&gt;</dt>
+    <dd>Etiquetes que es solen utilitzar per remarcar text especial que defineix els apartats del nostre web. Hi ha 6 nivells d'etiquetes de capçalera</dd>
+    <dt>Etiqueta de paràgraf &lt;p&gt;</dt>
+    <dd>La majoria del contingut d'una web és text. Tots els paràgrafs de text que apareguin al nostre web han d'anar a dins l'etiqueta &lt;p&gt;. Un paràgraf sempre comença a una línia nova.</dd>
+    <dt>Generador de paràgrafs Lorem Ipsum</dt>
+    <dd>Lorem Ipsum és un generador de paràgrafs que s'utilitza per posar contingut a la nostra web per poder veure com va quedant la nostra web si encara no tenim el contingut real. posar "Lorem" dins l'editor de html</dd>
+    <dt>Etiquetes de format</dt>
+    <dd>Les etiquetes de format serveixen per mostrar text que tingui un caràcter especial.
+        <ul>
+        <li>&lt;b&gt; - Text en negreta (bold)</li>
+        <li>&lt;strong&gt; - Text important o amb paraules clau</li>
+        <li>&lt;i&gt; - Text en cursiva (italic)</li>
+        <li>&lt;em&gt; - Text emfatitzat (emphasized)</li>
+        <li>&lt;mark&gt; - Text resaltat (com amb rotulador)</li>
+        <li>&lt;small&gt; - Anotacions menors</li>
+        <li>&lt;del&gt; - Text tatxat (deleted)</li>
+        <li>&lt;ins&gt; - Text subratllat (inserted)</li>
+        <li>&lt;sub&gt; - Subíndex (subscript)</li>
+        <li>&lt;sup&gt; - Superíndex (superscript)</li>
+    </ul>
+        </dd>
+        <dt>Links (anchor)</dt>
+        <dd>Una de les eines més potents d'HTML és l'utilització de links, ja sigui a un altre plana web o a parts del nostre document. El format de l'etiqueta per fer un link és el següent:
+            &lt;a href="url"&gt;link text&lt;/a&gt;</dd>
+        <dt>Comentaris</dt>
+        <dd>L'ús de comentaris dins el nostre document HTML és molt útil. Ens ajuden a entendre el que hi ha a les diferents parts del document. L'explorador ignora els comentaris i no es mostren a la pantalla, però fan el codi més legible per al programador. Amb la seguent estructura &lt;!-- (text)--&gt;</dd>
+</dl>
+</body>
+</html>

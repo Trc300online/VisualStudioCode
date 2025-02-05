@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <title>Prova de formularis</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Formularis HTML">
+    <meta name="author" content="Toni Riera Colomar">
+</head>
+<body>
+    <form method="GET" id="myForm" action="processar_info_form1.php">
+
+        <label for="Nom">Nom:</label>
+            <input type="text" name="Nom" id="Nom"><br><br>
+
+        <label for="Llinatges">Llinatges:</label>
+            <input type="text" name="Llinatges" id="Llinatges"><br><br>
+
+        <label for="Codi_Postal">Codi postal:</label>
+        
+            <input type="text" name="Codi_Postal" id="Codi_Postal"><br><br>
+
+        <label for="Illa">Illa:</label>
+            <select id="Illa" name="Illa">
+                <option value="Mallorca">Mallorca</option>
+                <option value="Menorca">Menorca</option>
+                <option value="Eivissa">Eivissa</option>
+                <option value="Formantera">Formantera</option>
+            </select><br><br>
+        
+        <label for="Genere1">Gèner:</label>
+            <input type="radio" id="Genere1" name="Genere" value="Home">
+                <label>Home</label>
+            
+            <input type="radio" id="Genere2" name="Genere" value="Dona">
+                <label>Dona</label><br><br>
+
+        <label for="Preferencies1">Preferències:</label>
+            <input type="checkbox" id="Preferencies1" name="Preferencies[]" value="Veremll">
+                <label>Vermell</label>
+
+            <input type="checkbox" id="Preferencies2" name="Preferencies[]" value="Verd">
+                <label>Verd</label>
+            
+            <input type="checkbox" id="Preferencies3" name="Preferencies[]" value="Blau">
+                <label>Blau</label><br><br>
+            
+        <label for="Telefon">Telèfon:</label>
+            <input type="tel" name="Telefon" id="Telefon"><br><br>
+
+        <label for="Correu">Correu:</label>
+            <input type="email" name="Correu" id="Correu"><br><br>
+
+        <label for="Contrasenya">Contrasenya:</label>
+            <input type="password" name="Contrasenya" id="Contrasenya"><br><br>
+
+        <label for="Repeteix_Contrasenya">Repeteix contrasenya:</label>
+            <input type="password" name="Repeteix_Contrasenya" id="Repeteix_Contrasenya"><br><br>
+
+       <input type="submit" value="Envia">
+    </form>
+</body>
+</html>

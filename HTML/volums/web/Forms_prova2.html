@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <title>Prova de formularis</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Formularis HTML">
+    <meta name="author" content="Toni Riera Colomar">
+</head>
+<body>
+    <form method="GET" id="myForm" action="processar_info_form2.php">
+        <fieldset>
+            <legend>Dades personals</legend>
+
+                <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom1"><br>
+
+                <label for="llinatges">Llinatges:</label>
+                    <input type="text" id="llinatges" name="llinatges1"><br>
+
+                <label for="correu">Correu:</label>
+                    <input type="email" id="correu" name="correu1"><br>
+                
+                <label for="telefon">Telèfon:</label>
+                    <input type="tel" id="telefon" name="telefon1" pattern="[0-9]{3}[0-9]{3}[0-9]{3}"><br>
+                
+                <label for="data_neixament">Data de neixament:</label>
+                    <input type="date" id="data_neixament" name="data_neixament1"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Examen tipus text</legend>
+            <br>
+                <label for="pregunta1.1">Pregunta 1</label>
+                <br>
+                <br>
+                    <input type="radio" id="pregunta1.1" name="pregunta1" value="repsposta1">
+                        <label>Resposta 1</label>
+                <br>
+                    <input type="radio" id="pregunta1.2" name="pregunta1" value="repsposta2">
+                        <label for="pregunta1.2">Resposta 2</label>
+                <br>
+                    <input type="radio" id="pregunta1.3" name="pregunta1" value="repsposta3">
+                        <label for="pregunta1.3">Resposta 3</label>
+                <br>
+                    <input type="radio" id="pregunta1.4" name="pregunta1" value="repsposta4">
+                        <label for="pregunta1.4">Resposta 4</label>
+                <br>
+                <br>
+                <label for="pregunta2.1">Pregunta 2</label>
+                <br>
+                <br>
+                    <input type="radio" id="pregunta2.1" name="pregunta2" value="repsposta1">
+                        <label>Resposta 1</label>
+                <br>
+                     <input type="radio" id="pregunta2.2" name="pregunta2" value="repsposta2">
+                        <label for="pregunta2.2">Resposta 2</label>
+                <br>
+                    <input type="radio" id="pregunta2.3" name="pregunta2" value="repsposta3">
+                        <label for="pregunta2.3">Resposta 3</label>
+                <br>
+                    <input type="radio" id="pregunta2.4" name="pregunta2" value="repsposta4">
+                        <label for="pregunta2.4">Resposta 4</label>
+                <br>
+                <br>
+                <label for="pregunta3.1">Pregunta 3</label>
+                <br>
+                <br>
+                    <input type="radio" id="pregunta3.1" name="pregunta3" value="repsposta1">
+                        <label>Resposta 1</label>
+                <br>
+                    <input type="radio" id="pregunta3.2" name="pregunta3" value="repsposta2">
+                        <label for="pregunta3.2">Resposta 2</label>
+                <br>
+                    <input type="radio" id="pregunta3.3" name="pregunta3" value="repsposta3">
+                        <label for="pregunta3.3">Resposta 3</label>
+                <br>
+                    <input type="radio" id="pregunta3.4" name="pregunta3" value="repsposta4">
+                        <label for="pregunta3.4">Resposta 4</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Tria els teus colors preferits</legend>
+                <input type="checkbox" id="blau" name="color[]" value="blau">
+                    <label for="blau">Blau</label>
+                <input type="checkbox" id="vermell" name="color[]" value="vermell">
+                    <label for="vermell">Vermell</label>
+            <br>
+                <input type="checkbox" id="groc" name="color[]" value="groc">
+                    <label for="groc">Groc</label>
+                <input type="checkbox" id="verd" name="color[]" value="verd">
+                    <label for="verd">Verd</label>
+            <br>
+                <input type="checkbox" id="taronja" name="color[]" value="taronja">
+                    <label for="taronja">Taronja</label>
+                <input type="checkbox" id="lila" name="color[]" value="lila">
+                    <label for="lila">Lila</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Credencials</legend>
+                <label for="correu_electronic">Correu electrònic</label>
+            <br>
+                    <input type="email" id="correu_electronic" name="correu_electronic1">
+            <br>
+                <label for="contrasenya">Contrasenya</label>
+            <br>
+                    <input type="password" id="contrasenya" name="contrasenya1"><br>
+        </fieldset>
+
+        <input type="submit" value="Envia">
+        <input type="reset" value="Restableix">
+
+</form>
+</body>
+</html>

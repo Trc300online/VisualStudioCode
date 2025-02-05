@@ -1,0 +1,22 @@
+header p {color: aquamarine;}
+
+main p {color: blueviolet;
+text-align: justify;}
+
+footer p {color: coral;
+font-size: 0.8rem;}
+
+nav li {text-transform: uppercase;
+font-style: italic;
+font-weight: bold;}
+
+h1 {color: darkgoldenrod;
+text-shadow: 2px 2px gold;
+text-align: center;}
+
+h2 {color: fuchsia;
+text-shadow: 2px 2px purple;
+text-align: center;}
+
+main h2 {text-decoration: underline;}
+

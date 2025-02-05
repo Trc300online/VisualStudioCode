@@ -1,0 +1,48 @@
+body h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 + p {
+    text-transform: uppercase;
+}
+
+h2 {
+    color: orange;
+}
+
+h2 + p {
+    text-decoration: underline;
+}
+
+.mod {
+    font-weight: bold;
+}
+
+#list1 ol li:first-child{
+    color: aqua;
+}
+
+#list1 ul li:last-child {
+    color: aqua;
+}
+
+#list2 ol li:nth-child(3), ul li:nth-child(3) {
+    color: lightcoral;
+}
+
+#list3 li:last-child {
+    color: lightpink;
+}
+
+footer a[href^="mailto"] {
+    color: green;
+}
+
+footer p:last-child {
+    font-size: small;
+}

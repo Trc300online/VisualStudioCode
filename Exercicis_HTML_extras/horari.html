@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authore" content="Toni Riera Colomar">
+    <meta name="description" content="Horari">
+    <title>Horari</title>
+    <link rel="stylesheet" href="CSS/css-taules/css/style.css">
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+
+        th, td, table {
+            border: 5px double gray;
+            border-collapse: separate;
+            border-spacing: 2px;
+        }
+
+        th.days {
+            margin: 50px;
+            background-color: bisque ;
+        }            
+
+        th.time {
+            background-color: burlywood;
+        }
+
+        th.pati {
+            background-color: gold;
+        }
+
+        .LLMQS {
+            background-color: lightblue;
+        }
+
+        .BBDD {
+            background-color: aquamarine;
+        }
+
+        .prog {
+            background-color: darkkhaki;
+        }
+
+        .tuto {
+            background-color: darkcyan;
+        }
+
+        .Ent {
+            background-color: antiquewhite;
+        }
+
+        .sis {
+            background-color: lavender;
+        }
+
+        .IPO {
+            background-color: olive;
+        }
+        
+        .digi {
+            background-color: tan;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr><th>             </th><th class="days"><b>DILLUNS</b></th><th class="days"><b>DIMARTS</b></th><th class="days"><b>DIMECRES</b></th><th class="days"><b>DIJOUS</b></th><th class="days"><b>DIVENDRES</b></th></tr>
+        <tr><th class="time">08:00 - 08:55</th><td rowspan="2" class="LLMQS">LLMQS</td><td rowspan="2" class="BBDD">BBDD</td><td rowspan="2" class="LLMQS">LLMQS</td><td rowspan="3" class="prog">Programació</td><td rowspan="3" class="BBDD">BBDD</td></tr>
+        <tr><th class="time">08:55 - 09:50</th></tr>
+        <tr><th class="time">09:50 - 10:45</th><td class="BBDD">BBDD</td><td class="tuto">Tutoria</td><td class="Ent">Ent desenv</td></tr>
+        <tr><th class="time">10:45 - 11:15</th><th colspan="5" class="pati">PATI</th></tr>
+        <tr><th class="time">11:15 - 12:10</th><td class="BBDD">BBDD</td><td rowspan="2" class="prog">Programació</td><td class="Ent">Ent desenv</td><td rowspan="2" class="sis">Sistemes inform</td><td class="LLMQS">LLMQS</td></tr>
+        <tr><th class="time">12:10 - 13:05</th><td rowspan="2" class="sis">Sistemes inform</td><td rowspan="2" class="prog">Programació</td><td class="IPO">IPO</td></tr>
+        <tr><th class="time">13:05 - 14:00</th><td class="Ent">Ent desenv</td><td class="IPO">IPO</td><td class="digi">Digitalització</td></tr>
+        <tr><th class="time">14:05 - 15:00</th><td class="IPO">IPO</td></tr>
+    </table>
+</body>
