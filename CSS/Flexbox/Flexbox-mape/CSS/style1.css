@@ -16,21 +16,26 @@ p, a {
 
 header {
     display: flex;
+    width: 100%;
     background-color: #B6FF6C;
+    justify-content: center;
 }
 
-/* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ 
 header img, header h1 {
-    /*display: flex;
-    align-content: center;*/
+    display: flex;
+    align-content: center;
 }
 
-nav, nav a, nav p{
+nav{
     display: flex;
+    align-items: center;
+    gap: 0.5em;
     background-color: #74A345;
+}
+
+nav a, nav p{
     color: white;
 }
-/* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ 
 
 main div {
     border: 5px solid #B79C31;
