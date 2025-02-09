@@ -1,0 +1,174 @@
+/*
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: #FFC09B;
+}
+
+header img, header h1 {
+    padding: 0.9em;
+    margin: 0;
+}
+
+span {
+    display: flex;
+}
+
+nav {
+    background-color: #FF6000;
+    border-width: 0.5em;
+    border-style: none none outset none;
+}
+
+ul {
+    padding: 0.5em 0;
+    margin: 0;
+    display: flex;
+    text-align: start;
+}
+
+ul li {
+    list-style: none;
+    margin: 0.5em;
+    color: white;
+}
+
+main section {
+    display: flex;
+}
+
+main section div:last-of-type{
+    display: block;
+}
+*/
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #ff9966;
+    padding: 15px;
+    font-size: 24px;
+}
+
+header span {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    margin-right: 10px;
+}
+
+/* Navegación */
+nav {
+    background-color: #ff6600;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background-color: #cc5500;
+}
+
+/* Sección principal */
+
+section:first-of-type {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+}
+
+section:first-of-type h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+section:first-of-type img {
+    max-width: 100%;
+    padding-left: 3em;
+}
+
+/* Productos */
+section:nth-of-type(2) {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+
+section:nth-of-type(2) div {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 200px;
+}
+
+section:nth-of-type(2) div img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+section:nth-of-type(2) div p {
+    margin: 10px 0;
+}
+
+/* Iconos sociales */
+section:nth-of-type(2) div:last-child {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #CCCCCC;
+    box-shadow: none;
+}
+
+/* Footer */
+footer {
+    background-color: #E9E2DC;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: left;
+    border-top: 3px solid #BEAE9B;
+    border-bottom: 1.5em solid #CCCCCC ;
+}
+
+footer div {
+    max-width: 300px;
+}
+
+footer h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
