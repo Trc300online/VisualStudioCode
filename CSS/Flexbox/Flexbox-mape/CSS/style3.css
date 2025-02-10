@@ -1,53 +1,3 @@
-/*
-html {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-
-header {
-    background-color: #FFC09B;
-}
-
-header img, header h1 {
-    padding: 0.9em;
-    margin: 0;
-}
-
-span {
-    display: flex;
-}
-
-nav {
-    background-color: #FF6000;
-    border-width: 0.5em;
-    border-style: none none outset none;
-}
-
-ul {
-    padding: 0.5em 0;
-    margin: 0;
-    display: flex;
-    text-align: start;
-}
-
-ul li {
-    list-style: none;
-    margin: 0.5em;
-    color: white;
-}
-
-main section {
-    display: flex;
-}
-
-main section div:last-of-type{
-    display: block;
-}
-*/
-
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -55,7 +5,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Encabezado */
 header {
     display: flex;
     align-items: center;
@@ -73,7 +22,6 @@ header img {
     margin-right: 10px;
 }
 
-/* Navegación */
 nav {
     background-color: #ff6600;
     padding: 10px;
@@ -96,7 +44,6 @@ nav ul li:hover {
     background-color: #cc5500;
 }
 
-/* Sección principal */
 
 section:first-of-type {
     display: flex;
@@ -114,7 +61,6 @@ section:first-of-type img {
     padding-left: 3em;
 }
 
-/* Productos */
 section:nth-of-type(2) {
     display: flex;
     justify-content: space-around;
@@ -143,7 +89,6 @@ section:nth-of-type(2) div p {
     margin: 10px 0;
 }
 
-/* Iconos sociales */
 section:nth-of-type(2) div:last-child {
     display: flex;
     justify-content: center;
@@ -152,7 +97,6 @@ section:nth-of-type(2) div:last-child {
     box-shadow: none;
 }
 
-/* Footer */
 footer {
     background-color: #E9E2DC;
     display: flex;
