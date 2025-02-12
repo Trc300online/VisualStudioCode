@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <title> Prova height i width </title>
+        <style>
+            .container{
+               background-color: salmon;
+               border: 3px solid black;
+               border-radius: 10px;
+               display: grid;
+               grid-auto-rows: 100px;
+               grid-template-columns: repeat(3,1fr);
+               gap: 4px;
+               height:300px;
+               justify-items: center;
+            }  
+
+            .container div{
+               background-color:rgb(48, 180, 136);
+               border: 2px solid red;
+               border-radius: 6px;
+            }
+
+            .container div:first-child {
+                background-color: greenyellow;
+                border: 2px solid green;
+                justify-self: start;
+                
+            
+            }
+
+            .container div:nth-child(2) {
+                background-color: blueviolet;
+                border: 2px solid blue;
+                
+                ;
+            
+            }
+
+            body{background: #999;}
+            
+        </style>
+    </head>
+<body>
+   <section class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+   </section>
+</body>
+</html>
