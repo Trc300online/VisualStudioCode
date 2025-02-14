@@ -1,0 +1,57 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.primer {
+    border: grey solid 2px;
+    border-radius: 10px;
+    background-color: rgba(211, 211, 211, 0.2);
+    padding: 1rem;
+}
+
+.segon {
+    border: red solid 2px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.tercer {
+    border: green solid 2px;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 0, 0.2);
+    padding: 1rem;
+}
+
+.quart {
+    border: blue solid 2px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.2);
+    padding: 1rem;
+}
+
+.quint {
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.primer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.quint {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
