@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exercici </title>
+
+<style>
+
+.tabla {
+  display: grid;
+  padding: 18px;
+  gap: 1px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.celda1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.celda2 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.celda3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.celda4 {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.celda5 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.celda1, .celda2, .celda3, .celda4, .celda5 {
+  color: white;
+  background-color: black;
+}
+
+</style>
+
+ </head>
+<body>
+<div class="tabla">
+  <div class="celda1"> celda 1 </div>
+  <div class="celda2"> celda 2</div>
+  <div class="celda3"> celda 3</div>
+  <div class="celda4"> celda 4</div>
+  <div class="celda5"> celda 5</div>
+</div>
+</body>
+</html>
