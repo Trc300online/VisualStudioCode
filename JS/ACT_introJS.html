@@ -93,11 +93,84 @@
         window.alert(parseInt(x)/parseInt(y));
     }
     */
-    // act 12
+
+    /* ACT 12
     let x = window.prompt("first number: ");
     let y = window.prompt("second number: ");
-</script>
 
+    if (parseInt(x)%parseInt(y) == 0) {
+        window.alert(parseInt(x) + " es multiple de " + parseInt(y));
+    } else {
+        window.alert(parseInt(x) + " no es multiple de " + parseInt(y))
+    }
+    */
+
+    /* ACT 13
+    let x = window.prompt("first number: ");
+    let y = window.prompt("second number: ");
+    
+    if (parseInt(x) > 0 && parseInt(y) > 0) {
+        window.alert("els dos nombres son positius")
+    }
+    if (parseInt(x) < 0 && parseInt(y) < 0) {
+        window.alert("cap dels nombres es positui")
+    }
+    if ((parseInt(x) < 0 && parseInt(y) > 0) || (parseInt(x) > 0 && parseInt(y) < 0)) {
+        window.alert("un dels nombres no es positiu")
+    }
+    */
+
+    /* ACT 14
+    let x = window.prompt("first number: ");
+    let y = window.prompt("second number: ");
+    let z = window.prompt("third number: ");
+
+    let a = parseInt(x);
+    let b = parseInt(y);
+    let c = parseInt(z);
+    
+    if (a > b && a > c) {
+        window.alert("el primer nombre(" + a + ") es el nombre mes gran")
+    }
+    if (b > a && b > c) {
+        window.alert("el segon nombre(" + b + ") es el nombre mes gran")
+    }
+    if (c > a && c > b) {
+        window.alert("el tercer nombre(" + c + ") es el nombre mes gran")
+    }
+    */
+
+    // JS 2
+
+    /* ACT 1
+    let x = 7890;
+
+    let a = window.prompt("introduir contrasenya: ");
+    let y = Number(a);
+
+    while (y != x) {
+        window.alert("Contrasenya incorrecta. try again");
+        let a = window.prompt("introduir contrasenya: ");
+        y = Number(a);
+    }
+    window-alert("Contrasenya correcta!!");
+    */
+
+    /* ACT 2
+    let max = 26;
+    let min = 10;
+
+    while (max >= min) {
+        if (max % 2 == 0) {
+            console.log(max);
+        }
+        max--;
+    }
+    */
+
+    
+
+    </script>
 
 </body>
 </html>
