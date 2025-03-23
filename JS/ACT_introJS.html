@@ -204,7 +204,42 @@
     }
     */
 
+    /* ACT 6
+    let x = parseInt(prompt("ingresau un nombre:"));
+    let count = 1;
+
+    while(count <= x) {
+        if (x%count == 0) {
+            console.log(count);
+        }
+        count++;
+    }
+    */
+
+    /* ACT 7 
+    let alt = parseInt(prompt("alçada:"));
+    let long = parseInt(prompt("amplada:"));
+
+    for (let x = 1; x <= alt; x++) {
+        document.writeln("<br>");
+        for (let y = 1; y <= long; y++) {
+            document.writeln("*");
+        }
+    }
+    */
+
+    /* ACT 8 */
+    let x = parseInt(prompt("Nombre positiu:"));
     
+    while (x != 1){
+        console.log("x = " + x);
+        if (x%2 == 0) {
+            x = x/2;
+        } else {
+            x = x*3 + 1;
+        }
+    }
+    console.log("x = " + x);
 
     </script>
 
