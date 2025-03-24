@@ -52,6 +52,18 @@
         alert("la mitja dels nombres " + list + " es " + avg);
         */
 
+        function invert(llista) {
+            let result = [];
+            for (let x = 0; x < llista.length; x++){
+                result.push(llista[llista.length - x - 1])
+            }
+            alert(result)
+        }
+
+        let llista = [1, 2, 3, 4];
+
+        invert(llista);
+
     </script>
 </body>
 </html>
