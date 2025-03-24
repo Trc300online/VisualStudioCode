@@ -204,7 +204,7 @@
     }
     */
 
-    /* ACT 6
+    /* ACT 6 
     let x = parseInt(prompt("ingresau un nombre:"));
     let count = 1;
 
@@ -244,7 +244,69 @@
 
     //     ACT amb funcions
 
+    /* ACT 1
+    function esParell(num) {
+        if (num%2 == 0){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    let numComp = parseInt(prompt("ingresau nombre:"));
     
+    if (esParell(numComp)) {
+        alert("el nombre es parell");
+    } else {
+        alert("el nombre es impar");
+    }
+    */
+
+    /* ACT 2
+    function maxim(a, b){
+        if (a > b) {
+        window.alert("el primer nombre(" + a + ") es el nombre mes gran");
+    } else {
+        window.alert("el segon nombre(" + b + ") es el nombre mes gran");
+    }
+    }
+
+    let x = parseInt( prompt("first number: "));
+    let y = parseInt(prompt("second number: "));
+
+    maxim(x, y);
+    */
+
+    /* ACT 3
+    function esMultiple(a, b) {
+        if (a%b == 0) {
+        window.alert(a + " es multiple de " + b);
+    } else {
+        window.alert(a + " no es multiple de " + b)
+    }    
+    }
+
+    let x = parseInt(prompt("first number: "));
+    let y = parseInt(prompt("second number: "));
+
+   esMultiple(x, y);
+   */
+
+   /* ACT 4
+    function pintaRectangle(a, b) {
+        for (let x = 1; x <= a; x++) {
+        document.writeln("<br>");
+        for (let y = 1; y <= b; y++) {
+            document.writeln("*");
+        }
+    }
+    }
+
+    let alt = parseInt(prompt("alçada:"));
+    let long = parseInt(prompt("amplada:"));
+
+    pintaRectangle(alt, long);
+    */
 
     </script>
 
