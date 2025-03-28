@@ -29,3 +29,17 @@ li.textContent = `Item ${numChild}`;
 ul.appendChild(li);
 
 /****************************************************************************************************************************************/
+
+const p_second = document.querySelector("p:nth-of-type(2)");
+p_second.remove();
+
+/****************************************************************************************************************************************/
+
+const body = document.querySelector("body");
+const p_bottom = document.createElement("p");
+p_bottom.textContent= "it amet consectetur adipisicing elit. Deserunt ex quod omnis aperiam dolorem";
+body.appendChild(p_bottom);
+
+/****************************************************************************************************************************************/
+
+p_bottom.textContent= "Toni Riera Colomar";
