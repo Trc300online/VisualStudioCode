@@ -1,5 +1,5 @@
 const h1 = document.querySelector("h1");
-h1.textContent = "ASIX - Llenguatges de Marques i Sistemes de Gestió d’Informació";
+h1.textContent = "ASIX - Llenguatges de Marques i Sistemes de Gestió d'Informació";
 
 /****************************************************************************************************************************************/
 
